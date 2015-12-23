@@ -43,3 +43,11 @@ one logical change, and then continue making changes to the
 working directory. This way, when you commit, you will only be
 committing the first logical change that was already staged.
 
+### Q4
+What are some situations when branches would be helpful in 
+keeping your history organized? How would branches help?
+
+If you need to work on experimental features or 'nice-to-have'
+bug fixes while keeping a working copy of code ready to ship
+at all times, all changes can be done on secondary branches while
+keeping the master branch production ready at all times.
