@@ -31,3 +31,15 @@ Or maybe if there are some really large image or video files
 that you know aren't going to change or even if they change,
 text-based git won't be particularly useful, then no need to 
 waste storage on tracking those huge files?
+
+### Q3
+
+How can you use the staging area to make sure you have one commit
+per logical change?
+
+Not entirely sure here. But I'm thinking if you end up making many
+changes to a single file you can add to the staging area after
+one logical change, and then continue making changes to the 
+working directory. This way, when you commit, you will only be
+committing the first logical change that was already staged.
+
