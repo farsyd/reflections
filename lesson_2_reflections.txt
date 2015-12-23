@@ -1,0 +1,33 @@
+### Q1
+
+What happens when you initialize a repository? Why do you need
+to do it?
+
+When a repository is initialized using git init, a .git folder is created
+in that directory. This folder probably contains all the information
+git needs to keep track of changes moving forward.
+
+If you don't initialize a repository, how in the world do you let
+git come in and do its thing?
+
+
+### Q2
+
+How is the staging area different from the working directory
+and the repository? What value do you think it offers?
+
+You can't commit from the working directory. Commits have to be
+from the staging area.
+
+You can choose which files you would like git to track by
+only placing those particular files in the staging area for the
+git commit.
+
+Maybe like one commit only has certain files, and another commit
+has certain other files. Then when you rollback to a certain 
+commit, then you will only have those files?
+
+Or maybe if there are some really large image or video files
+that you know aren't going to change or even if they change,
+text-based git won't be particularly useful, then no need to 
+waste storage on tracking those huge files?
