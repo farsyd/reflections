@@ -1,0 +1,121 @@
+################
+Q1
+##################
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+diff basically automated the whole process of searching through hundreds of lines
+of text to find a silly error.
+Also, since the game file was in a code format I was not familiar with, in order
+to manually find the error, I would have needed to compare every single line
+in both files. This would, undoubtedly, have been a very tedious process.
+
+It is extremely helpful to isolate only lines that have changed
+between two versions of the file.
+
+##############
+Q2
+##############
+
+How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
+
+It would allow me to try some ideas without losing my original code.
+For example, I had to create two different files to preserve my original resume
+while creating a Data Analytics version as well.
+With proper forking, I could have multiple branches of my resume simultaneously.
+
+#############
+Q3
+#############
+
+What do you think are the pros and cons of manually choosing 
+when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+
+Pros of Manual Saving:
+- Every save has a logical purpose.
+- User gets to add comments and revision notes to explain
+	what exactly was done and (if necessary) why.
+
+Cons of Manual Saving:
+- If the computer crashes between commits, then you're SOL
+	if nothing has been saved and you might have to write
+	everything again.
+- You might forget to commit when you reach a logical milestone.
+- If you know auto commit is going to happen,
+	perhaps it will force you to reach the logical
+	milestone on time?
+	
+##############
+Q4
+##############
+
+Why do you think some version control systems like Git, allow saving
+multiple files in one commit, while others like Google Docs, treat
+each file separately?
+
+I guess it boils down to whether the project involves interdependent
+files. So Git deals with code projects which require several 
+files to successfully execute, so having the ability to snapshot
+all of the files in one commit is useful.
+
+This is also what I experienced with LaTeX. If you changed a Chapter
+reference or a figure referenced in a Chapter other than the one
+where it appears in, it is important for all the Chapter files to
+get updated simultaneously. 
+
+In essence, if something breaks down, you'd like to see a snapshot
+of what everything looked like at the point in time.
+
+Google Docs largely deals with only one file at a time.
+The biggest threat there is that a user types in content, and 
+then something crashes before a save is made. Holding on to 
+information is much more important than logical versions in this
+case.
+
+###############
+Q5
+###############
+
+How can you use the commands git log and git diff to view
+history of files?
+
+git log gives us a list of all the commits that were made
+to a particular repository that we're interested in.
+Once we look at all the commits, and assuming we've done the
+right thing and included meaningful commit messages for each 
+commit, we should be able to go back to a specific point in
+history that we're interested in. 
+
+git diff will then give us an idea of what changed at each commit.
+Perhaps we can used diff over non-successive commits as well
+to get an idea of changes over a period of time.
+
+##################
+Q6
+##################
+
+How might using version control make you more confident to make
+changes that could break something?
+
+I know that I always have the most current working version saved.
+So even if I do something that breaks the program, I can always
+go back in time and find a version that worked. So basically I 
+have a 'works' version and a 'playground' version.
+
+#################
+Q7
+#################
+
+Now that you have your workspace set up, what do you want to
+try using Git for?
+
+I'm not really sure. I think it could come in handy for
+that Learn Python the Hard Way game. Or maybe for the next
+course on SQL.
+
+Perhaps also for the resume. If I can figure it out.
+And if I need a lot more versions.
+
