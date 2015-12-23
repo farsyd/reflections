@@ -51,3 +51,18 @@ If you need to work on experimental features or 'nice-to-have'
 bug fixes while keeping a working copy of code ready to ship
 at all times, all changes can be done on secondary branches while
 keeping the master branch production ready at all times.
+
+Helps separate production-quality branches (which never break)
+from developmental branches.
+
+### Q5
+How do the diagrams help you visualize the branch structure?
+
+It helped me find out who has what head. And how many changes happened
+in master while coin was being developed. And I also started to 
+wonder if there would be any conflicts if coin was merged to master.
+Like what if Sarah fixed some critical functionality, and then 
+someone else also addressed that system issue on their branch.
+When you merge, which fix will ultimately make it? 
+
+Guess this will be covered when we look at merges.
