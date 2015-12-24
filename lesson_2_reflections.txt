@@ -66,3 +66,41 @@ someone else also addressed that system issue on their branch.
 When you merge, which fix will ultimately make it? 
 
 Guess this will be covered when we look at merges.
+
+### Q6
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+
+The result is that the changes in both branches are incorporated
+into a new commit in the branch that is currently checked out.
+
+This diagram representation shows that commit history on both
+erstwhile branches can still be accessed. And shows exactly which
+head each commit has.
+
+### Q7
+
+What are the pros and cons of Git's automatic merging vs. always
+doing it manually?
+
+Pros of auto merging:
+	-Most of the time when we're looking at branches doing different
+		things, then auto merge is efficient.
+	-No need to look through and figure out which lines need
+		to be added where.
+
+Cons of auto merging:
+	-If two related changes were made in different parts of
+		the code by two different people and the code is fine
+		when running the individual changes, but merging the 
+		two changes together could lead to undesirable solution.
+	-Perhaps this is why anyone making a code change should
+		always write clear commit statements, and commit once
+		for every logical change.
+	-So if someone wants to merge a branch and they see that a
+		recent commit is addressing something similar to what
+		they were also working on, then they can manually review
+		the changes before auto merging to make sure no undesirable
+		result is obtained.
+		
