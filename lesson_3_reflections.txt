@@ -22,6 +22,20 @@ middle of working on something very important.
 Also, it allows you to view the commit history on 
 GitHub and pull whatever you need.
 
+### Q3
+Describe the differences between forks, clones, and
+branches. When would you use one instead of another?
+
+Fork: When you want to make a copy of a repository on 
+GitHub to your account.
+
+Clone: When you want to copy a repository from a remote 
+location to your local machine. Or when you want to make
+copies locally.
+
+Branch: When you want to try out something experimental
+without affecting the main production-ready master.
+
 
   
 
