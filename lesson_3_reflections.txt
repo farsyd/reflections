@@ -9,5 +9,19 @@ rather than keeping all your work local?
 -When I want others to use my work or see
   the results of my work.
   
+### Q2
+Why might you want to always pull changes manually
+rather than having Git automatically stay up-to-date
+with your remote repository?
+
+I guess it's along the lines of why you'd prefer to 
+do commits manually rather than have an auto-commit
+feature. This way, the local code in your working 
+directory doesn't get updated when you're in the 
+middle of working on something very important.
+Also, it allows you to view the commit history on 
+GitHub and pull whatever you need.
+
+
   
 
