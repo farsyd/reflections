@@ -36,6 +36,16 @@ copies locally.
 Branch: When you want to try out something experimental
 without affecting the main production-ready master.
 
+### Q4
+What is the benefit of having a copy of the last known
+state of the remote stored locally?
+
+This is so that if changes are made independently on both
+the local and the remote, the local machine knows exactly
+which commit we left off at when we were in-sync. So any
+commits after that in either local or remote need to be 
+reconciled. It would be harder if we didn't keep an
+origin/master pointer on hand.
 
   
 
