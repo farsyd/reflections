@@ -47,5 +47,20 @@ commits after that in either local or remote need to be
 reconciled. It would be harder if we didn't keep an
 origin/master pointer on hand.
 
+### Q5
+How would you collaborate without using Git or GitHub?
+What would be easier and what would be harder?
+
+Easier:
+No need to learn and remember command line codes.
+It would probably force people to work in physical
+proximity with each other. So problems might get solved
+faster.
+
+Harder:
+So much harder to name the different versions of files.
+Then sharing them in a directory or over email would be 
+very cumbersome too.
+
   
 
